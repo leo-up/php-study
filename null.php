@@ -1,4 +1,7 @@
 <?php
+/**
+ * see article: https://www.leyeah.com/blog/leo/article-null-php-data-types-3922101
+ */
 //null 参数
 function testNull(null $a)
 {
