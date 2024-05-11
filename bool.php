@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * see article: https://www.leyeah.com/blog/leo/article-php-data-type-bool-3923702
+ */
 class BoolTest1
 {
     public function getBoolFromNull(null $a): bool
@@ -139,3 +141,11 @@ var_dump($boolTest4->getB()); //输出 false
 //boll转换
 var_dump((bool)[]); // 输出 false
 var_dump((boolval('abc'))); // 输出 true
+
+//判断bool
+var_dump((is_bool(false))); // 输出 true
+var_dump((is_bool(true))); // 输出 true
+var_dump((is_bool('false'))); // 输出 false
+var_dump((is_bool(null))); // 输出 false
+var_dump((is_bool([]))); // 输出 false
+var_dump((is_bool(new stdClass()))); // 输出 false
