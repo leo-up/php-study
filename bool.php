@@ -135,3 +135,7 @@ class BooTest5
 
 $boolTest4 = new BooTest5(false);
 var_dump($boolTest4->getB()); //输出 false
+
+//boll转换
+var_dump((bool)[]); // 输出 false
+var_dump((boolval('abc'))); // 输出 true
