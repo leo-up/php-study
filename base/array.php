@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * see article: https://github.com/leo-up/php-study/blob/master/base/array.php
+ */
 $arr1 = array(1, 2, 4); //正常形式
 $arr2 = ['a'=>1, 2, 4]; //简写形式，一般都用这种
 $arr3 = [

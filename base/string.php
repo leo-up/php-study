@@ -1,4 +1,7 @@
 <?php
+/**
+ * see article: https://www.leyeah.com/blog/leo/article-php-data-type-string-3924759
+ */
 class StringTest
 {
     public function getStringFromIntBool(int|bool|null $a): string
